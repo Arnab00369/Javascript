@@ -1,3 +1,4 @@
+//1st Practice
 //varibales' names should always be in Camel Case
 
 //NOTE:: Never use 'var', now-a-days due to block and functional scope issues and values changes
@@ -7,7 +8,7 @@ const accountId = 458168
 let accountEmail = "arnabjana123456@gmail.com"
 var accountPassword = "123456"
 accountCity = "Kolkata"
-let accountState; 
+let accountState;
 // For 'let' if no value is given in the variable then it is undefined
 
 //accountId = 2 
