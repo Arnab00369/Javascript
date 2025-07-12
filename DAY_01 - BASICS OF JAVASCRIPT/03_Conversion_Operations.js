@@ -43,7 +43,9 @@ console.log("Value of 'b' after conversion to number is =  ",valueInNumber_3);
 //NOTE:: Output ==> Value of 'b' after conversion to number is =   0
 
 
-/*NOTE(V.V.Important)::
+/*
+NOTE(V.V.Important)::
+===================
 ==> Results after conversion of variables (to Number)::
 1) variable = number, After Conversion(to number) = number
 2) variable = mixed(string+number), After Conversion(to number) = NaN
@@ -53,12 +55,28 @@ console.log("Value of 'b' after conversion to number is =  ",valueInNumber_3);
 6) variable = undefined, After Conversion(to number) = NaN*/
 
 
-/*==> Conversion from number to boolean::
-
-***Code Syntax:: let variable_Name = Boolean(boolean_Variable)
+/*
+Conversion from Number to Boolean::
+=================================
+***Code Syntax:: let variable_Name = Boolean(Variable_Name_to_be_changed);
 
 Cases(Outputs based on variables result)::
 ======================================= 
 1) 1 = true(output), 0 = false(output)
 2) "" OR (Empty String) ==> false(output)
-3) "Arnab Jana" OR String Value ==> true(output)*/
+3) "Arnab Jana" OR String Value ==> true(output)
+*/
+
+
+
+/*
+Conversion from Number to String::
+================================
+***Code Syntax:: let variable_Name = String(Variable_Name_to_be_changed);
+ 
+For e.g.: 
+let number = 36;
+let string_Number = String(number); ==> Conversion done from Number to String
+console.log(string_Number); ==> Output: 36
+console.log(typeof string_Number); ==> Output: string
+*/
