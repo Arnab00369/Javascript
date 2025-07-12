@@ -1,5 +1,0 @@
-Follow:
-1) MDN Docs, and
-2) tc39.es
-
-These websites are easy to understand and read for beginners to get the topics and codes clarified and also about their use cases
