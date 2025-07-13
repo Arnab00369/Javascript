@@ -1,4 +1,4 @@
-Data_Types_Summary.js
+//Data_Types_Summary.js
 /*
 NOTE:: 
 ====
@@ -25,7 +25,11 @@ let user_Email; //undefined value
 const id = Symbol('123');
 const another_ID = Symbol('123');
 
-console.log(id === another_ID);
+console.log(id === another_ID);//Output: false ==> as we have made both the varibales as unique
+
+//Using bigNumber
+const bigNUmber=455165545515151122n;//Add 'n' after number to represent it as BigInt
+console.log(bigNUmber);
 
 
 
