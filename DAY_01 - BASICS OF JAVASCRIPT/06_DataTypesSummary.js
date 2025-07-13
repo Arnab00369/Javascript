@@ -39,3 +39,29 @@ console.log(bigNUmber);
   2) Objects, and
   3) Functions
 */
+
+//Array
+const heroes = ['Iron Man','Captain America','Batman','Saktiman'];
+console.log(heroes);
+
+//Objects
+let myObj = {
+   Name: "Arnab Jana",
+   Age: 21,
+}
+console.log(myObj);
+
+//Functions
+const myFunction = function(){
+console.log("Hi, there this is Arnab Jana");
+}
+
+
+//Determining Data Types of Variables::
+console.log(typeof bigNUmber);//bigint
+console.log(typeof outside_Temperature);//object
+console.log(typeof heroes);//object
+console.log(typeof myObj);//object
+console.log(typeof myFunction);//function
+console.log(typeof another_ID);//symbol
+console.log(typeof id);//symbol
